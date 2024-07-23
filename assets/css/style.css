@@ -9,7 +9,7 @@
     --rose_800: #7A284E;
     --rose_50: #FFF7FB;
     --stone_900: #312E2C;
-    --stone_600: #5FF64D;
+    --stone_600: #5F564D;
     --stone_150: #E3DDD7;
     --stone_100: #F3E5D7;
     --browm_800: #854632;
@@ -30,23 +30,19 @@ html {
 body {
     font-family: var(--outfit);
     font-size: 1.6rem;
-    line-height: 150%;
 }
 h1 {
     font-size: 4rem;
-    line-height: 100%;
     font-weight: 400;
     color: var(--stone_900);
 }
 h2 {
     font-size: 2.8rem;
-    line-height: 100%;
     font-weight: 400;
     color: var(--browm_800);
 }
 h3 {
     font-size: 2rem;
-    line-height: 100%;
     font-weight: 600;
     color: var(--rose_800);
 }
@@ -69,4 +65,17 @@ img {
 }
 .regular {
     font-weight: 400;
+}
+
+/***************************************** Header ************************************************/
+.header {
+    margin: 3rem;
+}
+.header h1{
+    line-height: 3.6rem;
+}
+.header p {
+    line-height: 2.4rem;
+    font-weight: 400;
+    color: var(--stone_600);
 }
