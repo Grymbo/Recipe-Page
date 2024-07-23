@@ -79,3 +79,33 @@ img {
     font-weight: 400;
     color: var(--stone_600);
 }
+
+/********************************* Preparation Time ***********************************/
+.preparation_time {
+    margin: 0 3rem;
+    padding: 3rem;
+    background-color: var(--rose_50);
+    border-radius: 1.2rem;
+}
+.list {
+    list-style: none;
+    padding-left: 0;
+    line-height: 2.4rem;
+    color: var(--stone_900);
+    font-weight: 700;
+}
+.list b {
+    font-weight: 400;
+}
+.list li {
+    padding-left: 3rem;
+    position: relative;
+}
+.list li::before {
+    position: absolute;
+    content: '•'; /* Contenido de la viñeta */
+    color: var(--rose_800); /* Color de la viñeta */
+    font-size: 1.5em; /* Tamaño de la viñeta */
+    line-height: 1em; /* Alinear la viñeta verticalmente */
+    left: 0;
+}
