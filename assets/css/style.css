@@ -15,3 +15,40 @@
     --browm_800: #854632;
     --white: #FFFFFF;
 }
+
+
+/******************************** Globales *************************************************/
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body {
+    font-family: var(--outfit);
+    font-size: 1.6rem;
+    line-height: 150%;
+}
+h1 {
+    font-size: 4rem;
+    line-height: 100%;
+    font-weight: 400;
+}
+h2 {
+    font-size: 2.8rem;
+    line-height: 100%;
+    font-weight: 400;
+}
+h3 {
+    font-size: 2rem;
+    line-height: 100%;
+    font-weight: 600;
+}
+img {
+    max-width: 100%;
+    width: 90%;
+    margin: 0 auto;
+}
