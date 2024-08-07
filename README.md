@@ -24,4 +24,4 @@ Cooking recipe, a simple page where varous CSS styles are applied, something sim
 
 ## Images
 
-- !(assets/images/image-omelette.jpeg)
+- ![](assets/images/image-omelette.jpeg)
