@@ -78,7 +78,8 @@ img {
         padding: 5rem 7rem;
         background-color: var(--white);
         border-radius: 3rem;
-        margin: 8rem 5rem;
+        margin: 8rem auto;
+        width: 90%;
         /*max-width: 768px;*/
     }
 }
