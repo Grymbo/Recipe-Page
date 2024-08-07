@@ -19,3 +19,7 @@
 - stone_100: #F3E5D7;
 - browm_800: #854632;
 - white: #FFFFFF;
+
+## Images
+
+- !(assets/images/image-omelette.jpeg)
