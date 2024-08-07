@@ -82,6 +82,11 @@ img {
         /*max-width: 768px;*/
     }
 }
+@media (min-width: 768px){
+    .card {
+        margin: 5rem auto;
+    }
+}
 /**************************************** Imagen ******************************************/
 @media (min-width: 768px){
     .img_imagen {
