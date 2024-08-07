@@ -144,28 +144,32 @@ img {
     /*margin: 0; /* Elimina el margen predeterminado */
     counter-reset: item; /* Resetea el contador de lista */
     line-height: 2.4rem;
-  }
+}
   .instruction_lista li {
     padding-left: 3rem; /* Espacio para los números */
     margin-left: rem;
     text-indent: -1.5em; /* Indentación negativa para alinear el texto */
     counter-increment: item; /* Incrementa el contador de lista */
     color: var(--stone_600);
-  }
+}
   .instruction_lista li::before {
     content: counter(item) ".";
     font-weight: 400;
     color: var(--browm_800); /* Color de los números */
     display: inline-block;
     width: 1.5em; /* Alinea los números con el texto */
-  }
+}
 
-  /****************************************** Nutrition *************************************/
-  .nutrition {
+/****************************************** Nutrition *************************************/
+.nutrition {
     margin: 0 3rem;
-  }
-  .nutrition p {
+}
+.nutrition p {
     font-weight: 400;
     line-height: 2.4rem;
     color: var(--stone_600);
-  }
+}
+  
+.nutrition_table {
+
+}
